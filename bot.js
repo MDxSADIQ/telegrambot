@@ -8,7 +8,7 @@ const {v4}  = require("uuid")
 // my database (tempory)
 
 var ModAppList = [
-    ["Spotify MOD APK", "https://files.an1.net/subway-surfers-mod_3.27.0-an1.com.apk", "https://an1.com/uploads/posts/2024-04/1712045875_subway-surfers.png"]
+    ["Spotify MOD APK", "https://t.me/+pOIJfkU6DE82ZDM9", "https://an1.com/uploads/posts/2024-04/1712045875_subway-surfers.png"]
 ]
 var btnlist = []
 ModAppList.forEach(btnArr => {
