@@ -49,14 +49,14 @@ bot.on("callback_query", async (callbackQuery) => {
     const opts = {
         reply_markup: {
             inline_keyboard: [
-                [{ text: "How to Watch ADD", url: "https://t.me/howtodownload_1/9" }],
-                [{ text: "👀Watch Add👀", url: shortlink }]
+                [{ text: "How to Watch AD", url: "https://t.me/howtodownload_1/9" }],
+                [{ text: "👀Watch Ad👀", url: shortlink }]
 
             ]
         }
     }
     // console.log(shortlink, fileLinK)
-    bot.sendMessage(chatId,"Please Watch some ADDs to get your file", opts )
+    bot.sendMessage(chatId,"Please Watch Ad to get your file", opts )
     bot.onText(`/start ${unique_id}`, (msg)=>{
         bot.sendMessage(msg.chat.id,"Here is your 📂file, Download and Enjoy your life!", {reply_markup:{inline_keyboard: [[{text: "Start Download", url:fileLinK }]]}})
     })
